@@ -1,0 +1,17 @@
+[package]
+name = "imagenor-paint"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+imagenor-geom = { workspace = true }
+imagenor-color = { workspace = true }
+imagenor-raster = { workspace = true }
+serde = { workspace = true }
+
+[dev-dependencies]
+serde_json = { workspace = true }

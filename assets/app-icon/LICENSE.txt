@@ -1,0 +1,3 @@
+Owner-supplied Imagenor brand artwork, imported for authorized local use on 2026-10-25. Authorship and redistribution licence have not separately been declared. Do not publish these assets until their licence is established. Upstream source code retains its existing MIT OR Apache-2.0 licences.
+
+2026-11-11: owner explicitly requested GitHub repository and release creation. Private hosting of this Imagenor source/package is authorised by that request. No declaration of authorship or public redistribution/relicensing is inferred.

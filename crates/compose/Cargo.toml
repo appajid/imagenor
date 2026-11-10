@@ -1,0 +1,28 @@
+[package]
+name = "imagenor-compose"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+imagenor-geom = { workspace = true }
+imagenor-color = { workspace = true }
+imagenor-raster = { workspace = true }
+imagenor-doc = { workspace = true }
+imagenor-vector = { workspace = true }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+rayon = { workspace = true }
+
+[dev-dependencies]
+proptest = { workspace = true }
+criterion = { workspace = true }
+imagenor-paint = { workspace = true }
+imagenor-cms = { workspace = true }
+
+[[bench]]
+name = "compose"
+harness = false

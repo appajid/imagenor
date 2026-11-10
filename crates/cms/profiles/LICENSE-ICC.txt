@@ -1,0 +1,8 @@
+Copyright International Color Consortium, 2015
+
+This profile is made available by the International Color Consortium, and may be copied, distributed, embedded, made, used, and sold without restriction. Altered versions of this profile shall have the original identification and copyright information removed and shall not be misrepresented as the original profile.
+
+Applies to sRGB2014.icc. Bundled unchanged.
+Sources: https://registry.color.org/rgb-registry/srgbprofiles
+https://registry.color.org/profile-library/
+Retrieved: 2026-10-25.

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="640" viewBox="0 0 440 560" role="img" aria-label="Imagenor editable document icon">
+<title>Imagenor document icon</title><defs>
+<linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#6323EA" stop-opacity=".10"/></linearGradient>
+<linearGradient id="emblem" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6323EA"/><stop offset=".48" stop-color="#F82CC2"/><stop offset="1" stop-color="#6323EA"/></linearGradient>
+<linearGradient id="fold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6323EA"/><stop offset="1" stop-color="#F4A3FF"/></linearGradient>
+<linearGradient id="highlight" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F4A3FF"/><stop offset="1" stop-color="#F82CC2"/></linearGradient>
+<filter id="shadow" x="-25%" y="-25%" width="150%" height="160%"><feGaussianBlur stdDeviation="13"/></filter>
+</defs>
+<g id="shadow" opacity=".20"><rect x="52" y="44" width="340" height="460" rx="36" fill="#6323EA" filter="url(#shadow)"/></g>
+<g id="document"><path d="M78 26 H296 Q306 26 316 36 L386 106 Q396 116 396 130 V465 Q396 495 366 495 H78 Q48 495 48 465 V56 Q48 26 78 26Z" fill="url(#paper)" stroke="#6323EA" stroke-width="2"/>
+<path d="M296 26 V105 Q296 133 324 133 H396Z" fill="url(#fold)" stroke="#6323EA" stroke-width="2" stroke-linejoin="round"/></g>
+<g id="application-symbol"><rect x="115" y="150" width="204" height="185" rx="34" fill="url(#emblem)"/><clipPath id="imageclip"><rect x="115" y="150" width="204" height="185" rx="34"/></clipPath><g clip-path="url(#imageclip)"><circle cx="167" cy="201" r="21" fill="#FFF" opacity=".95"/><path d="M108 326 L169 249 Q178 238 188 250 L227 295 L270 225 Q281 211 294 229 L338 294 V345 H108Z" fill="url(#fold)"/><path d="M126 343 L248 219 Q260 207 272 222 L337 302 V350Z" fill="url(#highlight)"/></g></g>
+<g id="editable-labels" font-family="Arial, Helvetica, sans-serif" text-anchor="middle"><text x="222" y="418" font-size="51" font-weight="800" letter-spacing="-2" fill="#07142E">Imagenor</text><text x="222" y="456" font-size="15" letter-spacing="5" fill="#52617C">IMAGE DOCUMENT</text></g>
+</svg>

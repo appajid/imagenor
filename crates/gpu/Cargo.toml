@@ -1,0 +1,31 @@
+[package]
+name = "imagenor-gpu"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+half = "2"
+imagenor-geom = { workspace = true }
+imagenor-color = { workspace = true }
+imagenor-raster = { workspace = true }
+imagenor-doc = { workspace = true }
+imagenor-compose = { workspace = true }
+# Same major version as eframe's wgpu so the app's device can be shared.
+wgpu = { version = "30", default-features = false, features = ["std", "wgsl"] }
+log = { workspace = true }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+# Effect distance fields are computed in parallel bands.
+rayon = { workspace = true }
+
+[dev-dependencies]
+wgpu = { version = "30" }
+pollster = "1"
+# Shape layers in the effect parity tests.
+imagenor-vector = { workspace = true }
+# A document-tagged CMYK profile in the tile conversion test.
+imagenor-cms = { workspace = true }

@@ -1,0 +1,9 @@
+Imagenor portable mode
+
+While this file sits next to imagenor.exe, Imagenor keeps its preferences, brush presets,
+crash-recovery autosaves and startup state in the ImagenorData folder beside it, and writes
+nothing to %APPDATA% or %LOCALAPPDATA%. Copy the whole folder to move Imagenor with its settings.
+
+Delete this file to use the normal per-user folders instead: %APPDATA%\Imagenor for settings
+and %LOCALAPPDATA%\Imagenor\Recovery for crash-recovery autosaves. If ImagenorData can't be
+written (for example on a read-only drive), Imagenor says so and uses those folders instead.
