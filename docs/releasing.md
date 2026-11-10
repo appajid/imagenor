@@ -1,6 +1,6 @@
 # Releasing Imagenor
 
-Imagenor's first repository/release publication was requested by the owner on 2026-11-11. The repository is https://github.com/appajid/imagenor and is initially private. The first release is `v0.1.0-alpha.1`, explicitly marked pre-release.
+Imagenor's first repository/release publication was requested by the owner on 2026-11-11. The repository is https://github.com/appajid/imagenor and was made public at the owner's explicit request on 2026-11-11. The first release is `v0.1.0-alpha.1`, explicitly marked pre-release.
 
 Use the release's notes in `docs/releases/` for validated platforms, signing state and limitations. Full workspace CI is not currently claimed green. Inherited upstream workflow templates moved to `.github/upstream-workflows/`; they are references and must not be enabled unchanged against the upstream organisation's private/reusable infrastructure. The manual quality workflow runs the complete gate without concealing its known failures.
 

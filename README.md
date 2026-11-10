@@ -16,7 +16,7 @@ Local fork established on 2026-10-25. Product names, Rust crates, app directorie
 
 The inherited project is alpha. Feature and parity estimates in [ROADMAP.md](ROADMAP.md) and [docs/target-app-parity.md](docs/target-app-parity.md) are upstream estimates; this branding change does not increase them. See [local rename notes](docs/imagenor-rebrand.md) for scope and verification.
 
-The first Imagenor release is **0.1.0-alpha.1**: an experimental preview, with known test failures and incomplete print-production workflows. Source and release files are hosted at [appajid/imagenor](https://github.com/appajid/imagenor). Repository access is private unless the owner explicitly changes its visibility. See [release notes](docs/releases/0.1.0-alpha.1.md).
+The first Imagenor release is **0.1.0-alpha.1**: an experimental preview, with known test failures and incomplete print-production workflows. Source and release files are hosted at [appajid/imagenor](https://github.com/appajid/imagenor). The repository and release downloads are public, explicitly authorised by the owner on 2026-11-11. See [release notes](docs/releases/0.1.0-alpha.1.md).
 
 In-app update transport remains disabled. Upstream PhotoCraft binaries are not offered as Imagenor updates.
 
@@ -40,6 +40,6 @@ Source code retains the upstream [MIT](LICENSE-MIT) OR [Apache-2.0](LICENSE-APAC
 
 Copyright (c) 2026 ArtCraft Team and the PhotoCraft contributors. Required notices are in [NOTICE](NOTICE).
 
-Every retained or imported asset has provenance in [ATTRIBUTION.md](ATTRIBUTION.md). Owner-supplied Imagenor brand artwork is authorized for local integration; its authorship and redistribution licence have not separately been declared. See [the brand notice](assets/brand/LICENSE.txt). This does not change the source code licences. Upstream proprietary ArtCraft marks were removed; their original licence notice is preserved for provenance.
+Every retained or imported asset has provenance in [ATTRIBUTION.md](ATTRIBUTION.md). Owner-supplied Imagenor brand artwork is authorised for inclusion in this public repository and Imagenor releases (owner instruction, 2026-11-11); authorship and any separate asset reuse licence have not been declared. See [the brand notice](assets/brand/LICENSE.txt). This does not change the source code licences. Upstream proprietary ArtCraft marks were removed; their original licence notice is preserved for provenance.
 
 Adobe and Photoshop are trademarks or registered trademarks of Adobe Inc. Imagenor is independent and is not affiliated with, sponsored by or endorsed by Adobe Inc. These names describe compatible workflows only.

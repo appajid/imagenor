@@ -1,3 +1,1 @@
-Owner-supplied Imagenor brand artwork, imported for authorized local use on 2026-10-25. Authorship and redistribution licence have not separately been declared. Do not publish these assets until their licence is established. Upstream source code retains its existing MIT OR Apache-2.0 licences.
-
-2026-11-11: owner explicitly requested GitHub repository and release creation. Private hosting of this Imagenor source/package is authorised by that request. No declaration of authorship or public redistribution/relicensing is inferred.
+Owner-supplied Imagenor brand artwork, imported on 2026-10-25. The project owner explicitly authorised public GitHub repository and Imagenor release publication on 2026-11-11. This supersedes the earlier local/private-hosting-only notes. Authorship and any separate asset reuse licence have not been declared. Source code retains its existing MIT OR Apache-2.0 licences; no new open-source asset licence is inferred.
